@@ -39,3 +39,9 @@ AWS marketPlace: https://aws.amazon.com/marketplace OR  in console search AWS Ma
 5. Wavelength: AWS Wavelength embeds AWS compute and storage services within 5G networks, providing mobile edge computing infrastructure for developing, deploying, and scaling ultra-low-latency applications
 6. Edge Network locations :Networking services Amazon CloudFront, AWS Global Accelerator, and Amazon Route 53 sit at AWS’ global edge locations connected by dedicated 100Gbps redundant fiber to deliver data with single digit millisecond AWS network latency.
 7. aws outposts = Azure stack = search in portal about outposts
+
+## Demonstration:
+1. AWS Service Categories: Services -----> See list
+2. Creating AWS account -> AWS Free tier
+3. create IAM user for New account -> create a aws service
+4. aws pricing calculator
