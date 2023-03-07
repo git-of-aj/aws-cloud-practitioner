@@ -19,4 +19,8 @@ In windows:
 ## extended network
 connect 2 different network together. In this case, make internet know about your private machine.
 
+## VPC
 
+* IPAM pool: 
+create a big pool of ip addess => create vpc in different region / m here
+![](https://docs.aws.amazon.com/images/vpc/latest/ipam/images/ipam-example-1-570px.png)
