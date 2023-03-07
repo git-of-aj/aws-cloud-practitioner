@@ -1,3 +1,5 @@
+> you are a global food company. Your compettitors are embracing modern tools and tech to give better and faster customer experince. You want to give tough fight to compettitors. You plan to luanch an app so that customers can order healthy and tasty food directly from you. You already have a multiple datacenters in India and Europe. Your CTO says Cloud cna help us FOCUS ON revenue-generating activities as opposed to managing infra. Now you are in a meeting to learn more about cloud and it's benefits.
+
 # Read Slide -> Explain it -> Relate it -> show it 
 ## What is cloud ??
 - Less Managemnt
