@@ -24,3 +24,14 @@ connect 2 different network together. In this case, make internet know about you
 * IPAM pool: 
 create a big pool of ip addess => create vpc in different region / m here
 ![](https://docs.aws.amazon.com/images/vpc/latest/ipam/images/ipam-example-1-570px.png)
+
+## internet gateway
+1 vpc : 1 internet gateway
+- there is no additional charge for an IGW itself. However, data transfer fees apply for traffic that flows through the IGW. Outbound data transfer from an EC2 instance in a VPC to the internet is charged based on the data transfer out pricing tier. Inbound data transfer from the internet to an EC2 instance in a VPC is free.
+
+You can find more information on AWS data transfer pricing here: https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer_Pricing
+
+## transit gateway vs internet gateway
+Transit Gateway is used for interconnecting multiple VPCs and on-premises networks, while Internet Gateway is used to provide internet connectivity to a single VPC.
+
+It's worth noting that TGW also supports VPN and Direct Connect connections to on-premises networks, while IGW only provides internet connectivity. Additionally, TGW is priced per-hour and per-GB data processing charges, while there is no additional charge for IGW itself, but data transfer fees apply for traffic that flows through it.
