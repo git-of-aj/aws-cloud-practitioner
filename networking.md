@@ -31,6 +31,9 @@ create a big pool of ip addess => create vpc in different region / m here
 
 You can find more information on AWS data transfer pricing here: https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer_Pricing
 
+## public / private subnet (theoritical)
+- If a subnet is `associated with a route table that has a route to an internet gateway`, it's known as a `public subnet`. If a subnet is associated with a route table that does not have a route to an internet gateway, it's known as a private subnet.
+
 ## transit gateway vs internet gateway
 Transit Gateway is used for interconnecting multiple VPCs and on-premises networks, while Internet Gateway is used to provide internet connectivity to a single VPC.
 
