@@ -60,7 +60,22 @@ SNS --> arrogant ||||||| SQS --> patient
 
 ## container in aws
 - ECS: Run docker containers over Ec2
-- 
+
+
+--------------------------------------------------------------------------------------
+
+## ECS Components:
+Task Definition: A task definition is like a blueprint for your application. It specifies the Docker container image to use, the resources to allocate to the container, and other settings such as networking, logging, and environment variables.
+
+Container Instance: A container instance is a server that runs the Docker daemon and can run one or more containers. It can be an EC2 instance or a Fargate instance, which is a serverless option for running containers.
+
+Cluster: A cluster is a logical grouping of container instances that you can manage as a single entity. A cluster can contain one or more container instances.
+
+Service: A service is a group of tasks that are run together and managed by ECS. A service can be configured to automatically start or stop tasks, maintain a desired number of running tasks, and optionally load balance traffic across them.
+
+Task: A task is a running instance of a task definition. It can run one or more containers that are specified in the task definition. A task runs on a container instance in a cluster.
+
+Container: A container is a lightweight and portable executable package that contains all the necessary code, libraries, and dependencies to run an application. It runs within a Docker engine and can be managed by ECS.
 
 
 
