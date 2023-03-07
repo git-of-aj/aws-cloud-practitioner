@@ -1,4 +1,5 @@
-## WHat is cloud ??
+# Read Slide -> Explain it -> Relate it -> show it 
+## What is cloud ??
 - Less Managemnt
 - Global Reach
 - Rapid 
