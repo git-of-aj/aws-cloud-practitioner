@@ -58,6 +58,9 @@ both are siblings
 SNS --> arrogant ||||||| SQS --> patient
 - SNS aya gya ||| SQS aaya --> busy --> wait kia  
 
+> Container orchestration is the process of managing and deploying containerized applications across a cluster of servers. These services typically include features such as automated deployment, load balancing, scaling, monitoring, and logging, which simplify the process of managing containers and help to ensure that applications are always available and performing at their best. Some popular container orchestration services include Kubernetes, Docker Swarm, and Amazon ECS.
+
+
 ## container in aws
 - ECS: Run docker containers over Ec2
 
