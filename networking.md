@@ -18,3 +18,5 @@ In windows:
 
 ## extended network
 connect 2 different network together. In this case, make internet know about your private machine.
+
+
