@@ -62,7 +62,13 @@ SNS --> arrogant ||||||| SQS --> patient
 
 
 ## container in aws
-- ECS: Run docker containers over Ec2
+- ECS: Run docker containers over Ec2 (if you have permanent use patterns, need full control over security, networking, patching etc) 
+- or
+- fargate: complete abstraction from infra. serverless container orchestration service
+
+2. EKS: managed k8 service
+
+
 
 
 --------------------------------------------------------------------------------------
