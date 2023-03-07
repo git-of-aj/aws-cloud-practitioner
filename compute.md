@@ -15,6 +15,43 @@
 
 ## ASG
 [aws docs - what when how asg](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html)
+
 ![](https://docs.aws.amazon.com/images/autoscaling/ec2/userguide/images/as-basic-diagram.png)
 - [predictive scaling:](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html) Proactive approach: needs atleast past 24 hour cloudwatch data to identify traffic pattern --> forcast only mode -> test & deploy
 - dynamic scaling: reactive approach
+
+-The instance scale-in protection setting controls whether the Auto Scaling group can terminate a particular instance when scaling in. 
+
+## ELB
+1. ELB is the umbrella term for the load balancer service, which provides both Application Load Balancers (ALB) and Network Load Balancers (NLB). ELB also provides a third type of load balancer, called Classic Load Balancer, which is the original type of load balancer in AWS and supports both HTTP and HTTPS traffic.
+
+2.ALB is designed to provide Layer 7 (application layer) load balancing and supports HTTP and HTTPS traffic. It can route traffic based on content-based routing rules, such as path-based routing and host-based routing. ALB also supports advanced features such as sticky sessions, SSL/TLS termination, and authentication.
+
+3. NLB, on the other hand, is designed to provide Layer 4 (transport layer) load balancing and supports TCP, UDP, and other protocols. It can handle a much larger volume of traffic than ALB and has lower latencies. NLB also supports advanced features such as source IP-based routing, cross-zone load balancing, and SSL/TLS passthrough.
+
+## Messaging service
+- Like a youtube channel bell icon 
+- Publisher -> Youtube content creator
+- central msg broker (youtube channel) --> recives the content -> alert to all subscribers.
+- same for any Publish-Subscribe (Pub/Sub) is a messaging pattern where senders, known as publishers, send messages to a central message broker, known as a topic or channel. Subscribers then register to receive messages from that topic or channel.
+- example Apache Kafka, RabbitMQ, SNS
+- **Benefits**
+1.  Pub/Sub pattern enables asynchronous communication between decoupled components or services, where senders and receivers don't have to know about each other. 
+2.   commonly used in modern distributed systems architecture, where components can be added, removed or scaled dynamically
+[SNS:](https://aws.amazon.com/sns/)
+
+1. sns use 1
+![](https://d1.awsstatic.com/Product-Page-Diagram_Amazon-SNS_Event-Driven-SNS-Compute%402x.03cb54865e1c586c26ee73f9dff0dc079125e9dc.png)
+
+2. sns send msg to customers and app push notifications
+![](https://d1.awsstatic.com/Product-Page-Diagram_Amazon-SNS-Mobile-Push%402x.08ac920f6c0bcf10c713be9e423b13e6fd9bd50c.png)
+
+## SQS
+
+
+
+
+
+
+
+
