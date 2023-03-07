@@ -1,3 +1,5 @@
+Barista == who makes coffee
+
 ## Ec2
 - on demand scalable computing capacity (virtual servers)
 - get cpu,gpu,os,disk of your choice --> use it --> delete it 
@@ -30,6 +32,7 @@
 3. NLB, on the other hand, is designed to provide Layer 4 (transport layer) load balancing and supports TCP, UDP, and other protocols. It can handle a much larger volume of traffic than ALB and has lower latencies. NLB also supports advanced features such as source IP-based routing, cross-zone load balancing, and SSL/TLS passthrough.
 
 ## Messaging service
+[what is pub/sub -> aws docs](https://aws.amazon.com/pub-sub-messaging/)
 - Like a youtube channel bell icon 
 - Publisher -> Youtube content creator
 - central msg broker (youtube channel) --> recives the content -> alert to all subscribers.
@@ -47,9 +50,17 @@
 ![](https://d1.awsstatic.com/Product-Page-Diagram_Amazon-SNS-Mobile-Push%402x.08ac920f6c0bcf10c713be9e423b13e6fd9bd50c.png)
 
 ## SQS
+> Send notification back and forth to app component. in serial wise order ----> 1 come 1 served aka (FIFO) ==> first in first out
+- Example: in Ecommerce Webiste ===> when a customer places an order, the order information is sent to an SQS queue. The order processing service retrieves the order information from the queue and processes the order.
 
+## SNS Vs SQS
+both are siblings
+SNS --> arrogant ||||||| SQS --> patient
+- SNS aya gya ||| SQS aaya --> busy --> wait kia  
 
-
+## container in aws
+- ECS: Run docker containers over Ec2
+- 
 
 
 
