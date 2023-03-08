@@ -33,5 +33,23 @@ S3 Glacier: This is like a storage unit that you rent to store items that you do
 
 S3 Glacier Deep Archive: This is like a storage unit in a remote location that you use to store items that you may never need to access again. It's the furthest away from your closet and takes the longest time to retrieve items.
 
+## file storage 
+> if you need to support Linux file systems or require general-purpose file storage, EFS may be the better choice. However, if you require high-performance file storage for Windows workloads or advanced features such as support for SMB protocol, multi-AZ deployment, and data deduplication, FSx may be the better choice.
+
+```sh
+# install nfs client package 
+#below is for amazon linux -2
+sudo yum install -y nfs-utils
+
+# create a dir 
+sudo mkdir /mnt/efs
+
+# mount 
+sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 <EFS_DNS_NAME>:/ /mnt/efs
+
+# verify
+df -h
+
+
 
 
