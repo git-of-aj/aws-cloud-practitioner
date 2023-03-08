@@ -61,6 +61,18 @@ df -h
 ## Non-Realtional Databases aka NoSQL
  non-relational databases are well-suited for use cases that involve handling large amounts of unstructured or semi-structured data, and require high scalability and flexibility. Some examples of use cases for non-relational databases include e-commerce sites, social media platforms, real-time analytics, and IoT applications.
 
+## RDS
+- Backups,scaling, DR all configured by aws
+- popular db engines are supported - maria-db, mysql, postgreSQL
 
+### Basics
+
+|| ---> Amazon EBS provides durable, block-level storage volumes that you can attach to a running instance.
+==============================================================================
+DB instance class determines the computation and memory capacity of a DB instance
+======================================================
+DB engine like MSSQL,SQL,MqriaDb
+========================================================
+DB instance can contain one or more user-created databases.
 
 
