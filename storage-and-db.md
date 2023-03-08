@@ -74,5 +74,16 @@ DB instance class determines the computation and memory capacity of a DB instanc
 DB engine like MSSQL,SQL,MqriaDb
 ========================================================
 DB instance can contain one or more user-created databases.
+=========================================================
+
+
+> A burstable instance class, also known as a T-class instance, is designed for workloads that do not require sustained high CPU performance but may occasionally require more CPU resources than allocated. With burstable instances, you accrue CPU credits when your workload is utilizing less than the baseline level of CPU performance, and can use these credits to burst beyond the baseline level when needed.
+-----------------------------------------------------------------------------------------------------
+Burstable instances are ideal for workloads with unpredictable traffic patterns or intermittent high CPU usage, such as development and testing environments, low traffic web applications, and small databases. They are cost-effective because you only pay for the CPU usage you actually consume, rather than for a high-performance instance that you might not fully utilize.
+
+## AWS Aurora
+- create `read only replica of db` ----> reduce IOPS -----> increase performance [how to create read only copy after creating DB](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Create)
+- 
+
 
 
