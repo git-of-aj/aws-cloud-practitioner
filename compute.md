@@ -1,5 +1,8 @@
 Barista == who makes coffee
 
+## On-prem 
+When you buy an on-premises server, you get CPU, memory, storage, and IOPS, all bundled together. With Amazon EC2, these are split apart so that you can scale them independently. If you need more CPU, less IOPS, or more storage, you can easily allocate them.
+
 ## Ec2
 - on demand scalable computing capacity (virtual servers)
 - get cpu,gpu,os,disk of your choice --> use it --> delete it 
