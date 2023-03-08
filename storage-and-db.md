@@ -15,3 +15,23 @@ The instance hibernates
 The instance terminates
 
 Therefore, do not rely on instance store for valuable, long-term data. Instead, use more durable data storage, such as Amazon S3, Amazon EBS, or Amazon EFS
+
+- `instance store only with large instances like c or above not in t family`
+
+## s3
+think storage class like cupborad (ka-bird)
+
+S3 Standard: This is like the top shelf of your closet where you store items that you need to access frequently. It's easy to reach and you can quickly grab what you need.
+
+S3 Intelligent-Tiering: This is like the middle section of your closet where you store items that you use occasionally, but not as often as the top shelf items. The items are automatically moved to the appropriate shelf based on their usage.
+
+S3 Standard-Infrequent Access: This is like the bottom shelf of your closet where you store items that you don't need to access as often, but you still want to keep them within reach.
+
+S3 One Zone-Infrequent Access: This is like a storage bin or container outside of your closet that you can access when you need to, but it's not as easily accessible as the items in your closet.
+
+S3 Glacier: This is like a storage unit that you rent to store items that you don't need to access often but want to keep for a long time. It's not easily accessible, and you need to plan ahead to retrieve items.
+
+S3 Glacier Deep Archive: This is like a storage unit in a remote location that you use to store items that you may never need to access again. It's the furthest away from your closet and takes the longest time to retrieve items.
+
+
+
