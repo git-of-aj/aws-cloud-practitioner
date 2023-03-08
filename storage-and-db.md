@@ -49,6 +49,17 @@ sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,ret
 
 # verify
 df -h
+```
+
+## Databases
+
+## Relational Databases uses:
+1. CRM 
+2. HR system
+3. financial data, such as transactions, budgets, and forecasting, providing insights into the financial health of an organization.
+
+## Non-Realtional Databases aka NoSQL
+ non-relational databases are well-suited for use cases that involve handling large amounts of unstructured or semi-structured data, and require high scalability and flexibility. Some examples of use cases for non-relational databases include e-commerce sites, social media platforms, real-time analytics, and IoT applications.
 
 
 
