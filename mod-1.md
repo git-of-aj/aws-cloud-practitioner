@@ -48,3 +48,36 @@ AWS marketPlace: https://aws.amazon.com/marketplace OR  in console search AWS Ma
 2. Creating AWS account -> AWS Free tier
 3. create IAM user for New account -> create a aws service
 4. aws pricing calculator
+
+======================================================
+ # ACCORDING TO SKILL OUTLINE 
+ 
+ 1. [Software costs savings when moving to cloud](https://aws.amazon.com/blogs/mt/license-compliance-during-migration-to-aws/)
+ 2. [Right Sizing](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/right-sizing/)
+ 3. `aws s3 ls | awk '{print$3}'` --> lists all the s3 buckets with only there names
+
+```bash
+#!/bin/bash
+
+# get a list of all available buckets
+buckets=$(aws s3 ls | awk '{print $3}')
+
+# loop through each bucket
+for bucket in $buckets
+do
+    # get the count of objects inside the bucket
+    count=$(aws s3 ls s3://$bucket --recursive | wc -l)
+    
+    # if the count is greater than 0, delete all objects inside the bucket
+    if [ $count -gt 0 ]
+    then
+        echo "Deleting objects in bucket $bucket ..."
+        aws s3 rm s3://$bucket --recursive
+    fi
+    
+    # delete the bucket
+    echo "Deleting bucket $bucket ..."
+    aws s3 rb s3://$bucket --force
+done
+
+```
