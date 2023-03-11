@@ -7,6 +7,19 @@ When you buy an on-premises server, you get CPU, memory, storage, and IOPS, all 
 - on demand scalable computing capacity (virtual servers)
 - get cpu,gpu,os,disk of your choice --> use it --> delete it 
 - [aws docs - ec2 and dependencies](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
+
+## ec2 instance types
+Imagine you're building a pizza. The size of the pizza is the instance type, and the toppings are the resources available with that instance type.
+
+General Purpose Instances - These instances are like a basic cheese pizza. They provide a balance of compute, memory, and networking resources, suitable for a wide range of applications.
+
+Compute Optimized Instances - These instances are like a meat lover's pizza. They offer a high-performance CPU for applications that require significant computational power, like scientific computing or batch processing.
+
+Memory Optimized Instances - These instances are like a supreme pizza with extra cheese. They provide more memory than other instances, making them ideal for memory-intensive workloads like large-scale databases or analytics.
+
+Storage Optimized Instances - These instances are like a pizza with lots of toppings. They come with high disk I/O (input/output) and large storage capacity, making them suitable for applications that require a lot of data processing, like data warehousing or big data analytics.
+
+GPU Instances - These instances are like a customized pizza with unique toppings. They come with powerful graphics processing units (GPUs), ideal for applications that require intense graphical processing, such as 3D modeling, rendering, or machine learning.
 - 
 **Launch ec2 from launch Template:**
 - ![](https://docs.aws.amazon.com/images/AWSEC2/latest/UserGuide/images/launch-template-diagram.png)
