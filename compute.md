@@ -18,6 +18,8 @@ When you buy an on-premises server, you get CPU, memory, storage, and IOPS, all 
 2. Amazon EC2 can terminate an individual Spot Instance as the availability of, or price for, Spot Instances changes
 3. [ec2 saving plans](https://aws.amazon.com/savingsplans/compute-pricing/)
 
+> AWS Dedicated Hosts are dedicated physical servers within the AWS cloud infrastructure, while AWS Outposts are fully managed computing and storage racks located on-premises. 
+
 ## ASG
 [aws docs - what when how asg](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html)
 
