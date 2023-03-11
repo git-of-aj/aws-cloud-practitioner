@@ -20,7 +20,15 @@ Memory Optimized Instances - These instances are like a supreme pizza with extra
 Storage Optimized Instances - These instances are like a pizza with lots of toppings. They come with high disk I/O (input/output) and large storage capacity, making them suitable for applications that require a lot of data processing, like data warehousing or big data analytics.
 
 GPU Instances - These instances are like a customized pizza with unique toppings. They come with powerful graphics processing units (GPUs), ideal for applications that require intense graphical processing, such as 3D modeling, rendering, or machine learning.
-- 
+
+## AWS Reserved instance vs Compute saving plan
+- `reserved`: say to aws in this particular region,this size, os 
+-  Booking a Reserved Instance is like renting a specific property for a certain period. You are guaranteed that specific property, and you will pay a discounted rate for that rental
+
+`computing saving plan`: offer flexibility by providing a discount on your compute usage, regardless of instance family, size, AZ, or region. You commit to a specific dollar amount per hour of usage, and AWS provides a discount on all eligible usage, up to the amount you've committed to. CSPs are best suited for workloads that are more flexible in terms of instance type and usage patterns.
+- give upper bound $$$
+
+
 **Launch ec2 from launch Template:**
 - ![](https://docs.aws.amazon.com/images/AWSEC2/latest/UserGuide/images/launch-template-diagram.png)
 - **Spot instances vs On-demand**
