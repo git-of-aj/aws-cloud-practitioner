@@ -56,6 +56,7 @@ When you buy an on-premises server, you get CPU, memory, storage, and IOPS, all 
 
 ## SQS
 > Send notification back and forth to app component. in serial wise order ----> 1 come 1 served aka (FIFO) ==> first in first out
+- biding service --> bids place --> wait 
 - Example: in Ecommerce Webiste ===> when a customer places an order, the order information is sent to an SQS queue. The order processing service retrieves the order information from the queue and processes the order.
 
 ## SNS Vs SQS
