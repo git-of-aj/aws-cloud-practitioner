@@ -49,6 +49,7 @@ AWS Dedicated Hosts, on the other hand, provide you with a physical server that 
 
 ![](https://docs.aws.amazon.com/images/autoscaling/ec2/userguide/images/as-basic-diagram.png)
 - [predictive scaling:](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html) Proactive approach: needs atleast past 24 hour cloudwatch data to identify traffic pattern --> forcast only mode -> test & deploy
+- in scaling policy --> in aws console ---> Target Tracking Policy
 - dynamic scaling: reactive approach
 
 -The instance scale-in protection setting controls whether the Auto Scaling group can terminate a particular instance when scaling in. 
