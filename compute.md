@@ -28,7 +28,10 @@ GPU Instances - These instances are like a customized pizza with unique toppings
 `computing saving plan`: offer flexibility by providing a discount on your compute usage, regardless of instance family, size, AZ, or region. You commit to a specific dollar amount per hour of usage, and AWS provides a discount on all eligible usage, up to the amount you've committed to. CSPs are best suited for workloads that are more flexible in terms of instance type and usage patterns.
 - give upper bound $$$
 
-
+## aws dedicated vs instances vs hosts
+1. `aws dedicated instances`: 
+2. `aws dedicated host`:
+AWS Dedicated Hosts, on the other hand, provide you with a physical server that is dedicated to your account, and you have full control over the underlying hardware. You can choose the number of sockets, the number of cores, and the amount of memory you need for your workloads. This level of control allows you to bring your own licenses or software that require specific hardware configurations. AWS Dedicated Hosts provide the highest level of isolation and control available on AWS.
 **Launch ec2 from launch Template:**
 - ![](https://docs.aws.amazon.com/images/AWSEC2/latest/UserGuide/images/launch-template-diagram.png)
 - **Spot instances vs On-demand**
