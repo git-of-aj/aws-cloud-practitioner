@@ -83,7 +83,12 @@ Burstable instances are ideal for workloads with unpredictable traffic patterns 
 
 ## AWS Aurora
 - create `read only replica of db` ----> reduce IOPS -----> increase performance [how to create read only copy after creating DB](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Create)
-- 
+- Aurora stores copies of the data in a DB cluster across multiple Availability Zones in a single AWS Region
+- written to the primary DB instance, Aurora synchronously replicates the data across Availability Zones to six storage nodes associated with your cluster volume.
+- [create aurora global replica](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-getting-started.html)
+
+## DynamoDB for key value store
+- A Ecommerce site or library find using attribute -> bettr performance + faster
 
 
 
