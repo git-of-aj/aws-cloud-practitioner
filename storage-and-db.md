@@ -60,6 +60,7 @@ df -h
 
 ## Non-Realtional Databases aka NoSQL
  non-relational databases are well-suited for use cases that involve handling large amounts of unstructured or semi-structured data, and require high scalability and flexibility. Some examples of use cases for non-relational databases include e-commerce sites, social media platforms, real-time analytics, and IoT applications.
+ [aws docs - types of nosql DB](https://aws.amazon.com/nosql/)
 
 ## RDS
 - Backups,scaling, DR all configured by aws
@@ -93,6 +94,11 @@ Burstable instances are ideal for workloads with unpredictable traffic patterns 
 
 ## DynamoDB for key value store
 - A Ecommerce site or library find using attribute -> bettr performance + faster
+
+## Elasticache
+ -• ElastiCache is to get managed Redis or Memcached
+• Caches are in-memory databases with high performance, low latency
+• Helps reduce load off databases for read intensive workload
 
 
 
