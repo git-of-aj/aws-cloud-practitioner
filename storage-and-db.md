@@ -64,7 +64,8 @@ df -h
 ## RDS
 - Backups,scaling, DR all configured by aws
 - popular db engines are supported - maria-db, mysql, postgreSQL
-
+- you can't ssh into it !!!!!
+- 
 ### Basics
 
 || ---> Amazon EBS provides durable, block-level storage volumes that you can attach to a running instance.
@@ -82,10 +83,13 @@ DB instance can contain one or more user-created databases.
 Burstable instances are ideal for workloads with unpredictable traffic patterns or intermittent high CPU usage, such as development and testing environments, low traffic web applications, and small databases. They are cost-effective because you only pay for the CPU usage you actually consume, rather than for a high-performance instance that you might not fully utilize.
 
 ## AWS Aurora
+- optimised to run in cloud hence faster 
 - create `read only replica of db` ----> reduce IOPS -----> increase performance [how to create read only copy after creating DB](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Create)
 - Aurora stores copies of the data in a DB cluster across multiple Availability Zones in a single AWS Region
 - written to the primary DB instance, Aurora synchronously replicates the data across Availability Zones to six storage nodes associated with your cluster volume.
 - [create aurora global replica](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-getting-started.html)
+
+## once backup done --> create snapshot --> restore snapshot --> copy snapshot to other region --> transfer to other account -> restore that
 
 ## DynamoDB for key value store
 - A Ecommerce site or library find using attribute -> bettr performance + faster
