@@ -100,5 +100,14 @@ Burstable instances are ideal for workloads with unpredictable traffic patterns 
 • Caches are in-memory databases with high performance, low latency
 • Helps reduce load off databases for read intensive workload
 
-
+## redshift
+Redshift is based on PostgreSQL, but it’s not used for OLTP
+• It’s OLAP – online analytical processing (analytics and data warehousing)
+• Load data once every hour, not every second
+• 10x better performance than other data warehouses, scale to PBs of data
+• Columnar storage of data (instead of row based)
+• Massively Parallel Query Execution (MPP), highly available
+• Pay as you go based on the instances provisioned
+• Has a SQL interface for performing the queries
+• BI tools such as AWS Quicksight or Tableau integrate with i
 
