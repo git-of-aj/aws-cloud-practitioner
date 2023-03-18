@@ -16,3 +16,7 @@
 - users -> permissions --> Inline policy : Permissions directly attached to the user not via a group,
 - `inline policy`: added to that specific group,user only
 - `managed policy`: create this policy --> reuse it --> add it to anywhere
+
+## IAM Security
+- `IAM --> left side --> credential report` --> when signed in --> when password change 
+- `IAM --> user --> access advisor` --> see list of allowed services to the user --> when the users last accesed that service
