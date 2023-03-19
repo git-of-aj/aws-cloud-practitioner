@@ -49,6 +49,10 @@ AWS Dedicated Hosts, on the other hand, provide you with a physical server that 
 
 However, it's important to note that the EBS volumes must be in a consistent state before you create the AMI. You can either shut down the instance before creating the AMI or use the built-in Amazon EC2 tools to freeze the file system and ensure data consistency during the AMI creation process.
 
+## Instance store 
+- Physical storage physically atttached to ec2 hardware
+- available only in big instances like in `i` or `c` series
+
 ## ASG
 [aws docs - what when how asg](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html)
 
