@@ -44,6 +44,11 @@ AWS Dedicated Hosts, on the other hand, provide you with a physical server that 
 
 > AWS Dedicated Hosts are dedicated physical servers within the AWS cloud infrastructure, while AWS Outposts are fully managed computing and storage racks located on-premises. 
 
+## AMI
+> (AMI) from an EC2 instance, it includes the attached Elastic Block Store (EBS) volumes by default. This means that the data stored on the EBS volumes will be included in the AMI, allowing you to launch new instances with the same data and configuration as the original instance.
+
+However, it's important to note that the EBS volumes must be in a consistent state before you create the AMI. You can either shut down the instance before creating the AMI or use the built-in Amazon EC2 tools to freeze the file system and ensure data consistency during the AMI creation process.
+
 ## ASG
 [aws docs - what when how asg](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html)
 
