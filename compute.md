@@ -29,6 +29,7 @@ GPU Instances - These instances are like a customized pizza with unique toppings
 - give upper bound $$$
 
 ## aws dedicated vs instances vs hosts
+[link to blog of dedicated instance vs dedicated host](https://www.trek10.com/blog/dedicated-hosts-and-dedicated-instances)
 1. `aws dedicated instances`: 
 2. `aws dedicated host`:
 AWS Dedicated Hosts, on the other hand, provide you with a physical server that is dedicated to your account, and you have full control over the underlying hardware. You can choose the number of sockets, the number of cores, and the amount of memory you need for your workloads. This level of control allows you to bring your own licenses or software that require specific hardware configurations. AWS Dedicated Hosts provide the highest level of isolation and control available on AWS.
