@@ -25,4 +25,6 @@ In this example, the app used a RESTful API to communicate with the server and r
 [API GAteway Demo - ](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html)
 
 ## SNS - https://docs.aws.amazon.com/sns/latest/dg/welcome.html
+DEMO -- End emails via SNS - https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html
 Basics - My notes https://github.com/Ananyojha/aws-cloud-practitioner/blob/main/compute.md#messaging-service
+
