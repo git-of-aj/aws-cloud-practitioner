@@ -3,6 +3,7 @@ WHat is ? - https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.h
 demo - https://docs.aws.amazon.com/vpc/latest/peering/create-vpc-peering-connection.html
 
 The following diagram is an example of one VPC peered to two different VPCs. There are two VPC peering connections: VPC A is peered with both VPC B and VPC C. VPC B and VPC C are not peered, and you cannot use VPC A as a transit point for peering between VPC B and VPC C. If you want to enable routing of traffic between VPC B and VPC C, you must create a unique VPC peering connection between them.
+
 ![image](https://github.com/Ananyojha/aws-cloud-practitioner/assets/76782360/ea9a2401-7732-40a8-8933-49fd90300b5f)
 
 
@@ -23,3 +24,7 @@ When you create a gateway endpoint, you select the VPC route tables for the subn
 -----------------------------------------
 |prefix_list_id	| gateway_endpoint_id|
 
+## Transit Gateway
+- Like Azure WAN
+- connect multiple VPCs and on-premises networks in a hub-and-spoke model (Transit Gateway)
+- Docs => https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html
