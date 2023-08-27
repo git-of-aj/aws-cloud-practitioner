@@ -9,3 +9,4 @@ Instance Store:
 - Big Data Analytics: process large datasets quickly and efficiently, improving data processing and analytics performance.
 - HPC:
 - high performance db / caching 
+EC2 Placement Group = https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
