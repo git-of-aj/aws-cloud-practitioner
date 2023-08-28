@@ -24,3 +24,4 @@
 [Works - Ec2 start and stop](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)
 ## AWS BATCH 
 [What is Batch Processing](https://www.tibco.com/reference-center/what-is-batch-processing)
+- Training Machine Learning models. For example, an e-commerce website might want to process customer transactions in a hourly batch to update the model that produces related product recommendations, in order to save computational resources.
