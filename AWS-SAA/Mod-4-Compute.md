@@ -22,3 +22,5 @@
 > With AWS Lambda, you can run code without provisioning or managing servers. You pay only for the compute time that you consume—there's no charge when your code isn't running. You can run code for virtually any type of application or backend service—all with zero administration. Just upload your code and Lambda takes care of everything required to run and scale your code with high availability.
 - Because Lambda manages these resources, you cannot log in to compute instances or customize the operating system on provided runtimes.
 [Works - Ec2 start and stop](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)
+## AWS BATCH 
+[What is Batch Processing](https://www.tibco.com/reference-center/what-is-batch-processing)
