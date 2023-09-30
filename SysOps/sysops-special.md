@@ -1,7 +1,7 @@
 # IAM 
 - federated users
-- Rotate old access keys using aws config (Azure Policy):
-- AWS Credential Report: You can download a credential report that lists all users in your account and the status of their various credentials, including passwords, access keys, and MFA devices. You can generate a credential report from the AWS Management Console, the AWS SDKs and command line tools, or the IAM API.![image](https://github.com/Ananyojha/aws-cloud-practitioner/assets/76782360/d45be61b-53b0-4cd6-ad19-1ffb8075af8a)
+- Rotate old access keys using aws config (Azure Policy):https://docs.aws.amazon.com/config/latest/developerguide/1-click-setup.html + https://docs.aws.amazon.com/config/latest/developerguide/access-keys-rotated.html
+- AWS Credential Report: You can download a credential report that lists all users in your account and the status of their various credentials, including passwords, access keys, and MFA devices. You can generate a credential report from the AWS Management Console, the AWS SDKs and command line tools, or the IAM API.: DEMO: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html#getting-credential-reports-console
 - Permission boundary
 ## networking 
 - peering: https://docs.aws.amazon.com/vpc/latest/peering/create-vpc-peering-connection.html
