@@ -13,5 +13,27 @@
 1. ✅✅ [part of aws system manager] => AWS Sessions Manager (Azure Bastion):Provides secure access to your EC2 instances over SSH or RDP without having to open ports in your firewall
 2. why use it - https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html
 3. aws service catalog - azure blueprints : https://docs.aws.amazon.com/servicecatalog/latest/adminguide/autotags.html
-4. aws control tower
-5. ELB & More on Route 53
+4. demo: https://docs.aws.amazon.com/servicecatalog/latest/adminguide/getstarted-keypair.html
+5. aws control tower
+6. ELB & More on Route 53:
+routing policy: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html
+
+## Mod-3: Interactions with AWS
+- CLI, Powershell, console, cloudshell
+- Boto3
+- Cloudformation template basics: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html
+
+## Mod-4: Storage 
+s3 presigned url - https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
+s3 block public access at account level & bucket level
+s3 object versioning: https://docs.aws.amazon.com/AmazonS3/latest/userguide/manage-versioning-examples.html
+s3 object locks: https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-console.html
+retrieving archived objects
+EBS Multi attach: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
+create ebs snaphot
+
+## MOd-5: Backup and Monitoring
+use aws backup service for auto ebs backup: https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html
+Cloudwatch
+Xray
+VPC flow logs
