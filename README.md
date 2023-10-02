@@ -1,5 +1,5 @@
 # aws-cloud-practitioner
-According to upGrad slides
+
 
 ## API Gateway 
 - API Gateway acts as a "front door" for applications to access data, business logic, or functionality from your backend services, such as workloads running on Amazon Elastic Compute Cloud (Amazon EC2), code running on AWS Lambda, any web application, or real-time communication applications.
