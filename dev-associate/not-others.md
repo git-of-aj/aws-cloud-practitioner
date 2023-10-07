@@ -18,6 +18,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-skeleton.html
 ## aws s3 prefix and delimiter
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-prefixes.html
 
+## aws s3 select 
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-select.html
+
 ## aws s3 access point - https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html
 - Let's explore a real-life example to illustrate how AWS S3 Access Points can be used effectively:
 
