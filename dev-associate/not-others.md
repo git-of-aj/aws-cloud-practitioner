@@ -6,6 +6,7 @@
 -  AWS Free Tier can use AWS Cloud9 for free
 - setup: https://docs.aws.amazon.com/cloud9/latest/user-guide/tutorial-create-environment.html
 ## lambda creates s3 thumbnail: https://docs.aws.amazon.com/lambda/latest/dg/with-s3-tutorial.html
+
 ## codewispher
 - Amazon CodeWhisperer is an AI coding companion that generates whole line and full function code suggestions in your IDE in real-time, to help you quickly write secure code.
 - `AWS Builder ID` is a personal profile that provides access to select tools and services including Amazon CodeCatalyst, Amazon CodeWhisperer, and AWS Training and Certification. AWS Builder ID represents you as an individual and is independent from any credentials and data you may have in existing AWS accounts
@@ -20,6 +21,8 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-prefixes.html
 
 ## aws s3 select 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-select.html
+
+## aws multipart upload - https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpu-upload-object.html
 
 ## aws s3 access point - https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html
 - Let's explore a real-life example to illustrate how AWS S3 Access Points can be used effectively:
