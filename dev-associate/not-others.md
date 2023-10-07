@@ -5,13 +5,15 @@
 - There is no additional charge for AWS Cloud9. If you use an Amazon EC2 instance for your AWS Cloud9 development environment, you pay only for the compute and storage resources (e.g., an EC2 instance, an EBS volume) that are used to run and store your code. You can also connect your AWS Cloud9 development environment to an existing Linux server (e.g., an on-premises server) via SSH for no additional charge.
 -  AWS Free Tier can use AWS Cloud9 for free
 - setup: https://docs.aws.amazon.com/cloud9/latest/user-guide/tutorial-create-environment.html
-
+## lambda creates s3 thumbnail: https://docs.aws.amazon.com/lambda/latest/dg/with-s3-tutorial.html
 ## codewispher
 - Amazon CodeWhisperer is an AI coding companion that generates whole line and full function code suggestions in your IDE in real-time, to help you quickly write secure code.
 - `AWS Builder ID` is a personal profile that provides access to select tools and services including Amazon CodeCatalyst, Amazon CodeWhisperer, and AWS Training and Certification. AWS Builder ID represents you as an individual and is independent from any credentials and data you may have in existing AWS accounts
 - https://docs.aws.amazon.com/signin/latest/userguide/sign-in-aws_builder_id.html
 
 ## aws iam demo of service role and aws cli user profile etc
+`The --generate-cli-skeleton` : creates a file in json/yaml to fill all paramaters in it then use by `--cli-input-json/yaml`:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-skeleton.html
 
 ## aws s3 prefix and delimiter
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-prefixes.html
