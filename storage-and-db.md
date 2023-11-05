@@ -34,6 +34,9 @@ S3 Glacier: This is like a storage unit that you rent to store items that you do
 S3 Glacier Deep Archive: This is like a storage unit in a remote location that you use to store items that you may never need to access again. It's the furthest away from your closet and takes the longest time to retrieve items.
 
 ## file storage 
+- An Amazon EFS file system can have mount targets in only one VPC at a time.
+- NFS: You can access your Amazon EFS file system concurrently from multiple NFS clients, so applications that scale beyond a single connection can access a file system.
+- You can mount your Amazon EFS file systems on your on-premises data center servers when connected to your Amazon VPC with AWS Direct Connect or AWS VPN You can mount your EFS file systems on on-premises servers to migrate datasets to EFS, enable cloud bursting scenarios, or back up your on-premises data to Amazon EFS.
 > if you need to support Linux file systems or require general-purpose file storage, EFS may be the better choice. However, if you require high-performance file storage for Windows workloads or advanced features such as support for SMB protocol, multi-AZ deployment, and data deduplication, FSx may be the better choice.
 
 ```sh
