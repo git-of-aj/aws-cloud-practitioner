@@ -35,6 +35,13 @@ create ebs snaphot
 ## AWS Cloudfront
 - Docs: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
 - demo: Create a public s3 bucket => {cloudfront-url}/file-name in browser => takes 1-2 min https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStartedCreateBucket.html
+
+## Private Route 53:
+Private hosted zones do not support transitive relationships outside of the VPC; for example, you cannot access your resources using their custom private DNS names from the other side of a VPN connection.
+
+## RDS 
+Database parameters specify how the database is configured. For example, database parameters can specify the amount of resources, such as memory, to allocate to a database
+- binlog_checksum: The binlog is a record of the changes made to the database and is used for a variety of workloads such as disaster recovery using read replicas, change data capture for data streaming, event driven architectures, and analytics.
 ## MOd-5: Backup and Monitoring
 - **Cloudtrail**: As a best practice, create a trail that applies to all AWS Regions. This is the default setting when you create a trail in the CloudTrail console. When a trail applies to all Regions, CloudTrail delivers log files from all Regions in the AWS partition in which you are working to an S3 bucket that you specify. After you create the trail, AWS CloudTrail automatically starts logging the events that you specified.
 use aws backup service for auto ebs backup: https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html
