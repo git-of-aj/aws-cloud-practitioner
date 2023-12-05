@@ -32,6 +32,9 @@ retrieving archived objects
 EBS Multi attach: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
 create ebs snaphot
 
+## AWS Cloudfront
+- Docs: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+- demo: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStartedCreateBucket.html
 ## MOd-5: Backup and Monitoring
 - **Cloudtrail**: As a best practice, create a trail that applies to all AWS Regions. This is the default setting when you create a trail in the CloudTrail console. When a trail applies to all Regions, CloudTrail delivers log files from all Regions in the AWS partition in which you are working to an S3 bucket that you specify. After you create the trail, AWS CloudTrail automatically starts logging the events that you specified.
 use aws backup service for auto ebs backup: https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html
