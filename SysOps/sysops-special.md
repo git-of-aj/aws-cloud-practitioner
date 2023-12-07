@@ -24,12 +24,12 @@ routing policy: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routin
 - Cloudformation template basics: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html
 
 ## Mod-4: Storage 
-s3 presigned url - https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
-s3 block public access at account level & bucket level
-s3 object versioning: https://docs.aws.amazon.com/AmazonS3/latest/userguide/manage-versioning-examples.html
-s3 object locks: https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-console.html
+* s3 presigned url - https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
+* s3 block public access at account level & bucket level
+* s3 object versioning: https://docs.aws.amazon.com/AmazonS3/latest/userguide/manage-versioning-examples.html
+* s3 object locks: https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-console.html
 retrieving archived objects
-EBS Multi attach: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
+* EBS Multi attach: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
 create ebs snaphot
 
 ## AWS Cloudfront
