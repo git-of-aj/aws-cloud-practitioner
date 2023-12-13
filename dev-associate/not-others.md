@@ -1,5 +1,10 @@
 ## high level api = multiple api are called in single call
 
+## (AWS Secrets Manager)[https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html]
+- Passwords [database credentials, application credentials,] +  OAuth tokens, API keys, and other secrets throughout their lifecycles.
+- need hard-coded credentials in application source code
+- configure an automatic rotation schedule for your secrets.
+- Since the credentials are no longer stored with the application, rotating credentials no longer requires updating your applications and deploying changes to application client
 ## AWS CLOUD 9:
 - uses an ec2 instances BTS
 - There is no additional charge for AWS Cloud9. If you use an Amazon EC2 instance for your AWS Cloud9 development environment, you pay only for the compute and storage resources (e.g., an EC2 instance, an EBS volume) that are used to run and store your code. You can also connect your AWS Cloud9 development environment to an existing Linux server (e.g., an on-premises server) via SSH for no additional charge.
