@@ -1,6 +1,7 @@
 ## high level api = multiple api are called in single call
 
 ## (AWS Secrets Manager)[https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html]
+- KMS **Only creates and manages cryptographic keys for encryption etc**
 - Passwords [database credentials, application credentials,] +  OAuth tokens, API keys, and other secrets throughout their lifecycles.
 - need hard-coded credentials in application source code
 - configure an automatic rotation schedule for your secrets.
