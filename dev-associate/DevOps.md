@@ -24,3 +24,7 @@ Combines all commits from the source branch into a single merge commit in the de
 3. 3-way merge
 `git merge --no-ff`
 Creates a merge commit and adds individual source commits to the destination branch.
+------------------------------------------------------------------------------
+## CodeDeploy
+you create the Amazon EC2 instance where you deploy a sample application. As part of this process, create an instance role that allows install and management of the CodeDeploy agent on the instance. The CodeDeploy agent is a software package that enables an instance to be used in CodeDeploy deployments. You also attach policies that allow the instance to fetch files that the CodeDeploy agent uses to deploy your application and to allow the instance to be managed by SSM.
+[complete AWS CI - CD using Code Commit + Code Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html)
