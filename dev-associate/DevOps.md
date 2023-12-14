@@ -27,4 +27,8 @@ Creates a merge commit and adds individual source commits to the destination bra
 ------------------------------------------------------------------------------
 ## CodeDeploy
 you create the Amazon EC2 instance where you deploy a sample application. As part of this process, create an instance role that allows install and management of the CodeDeploy agent on the instance. The CodeDeploy agent is a software package that enables an instance to be used in CodeDeploy deployments. You also attach policies that allow the instance to fetch files that the CodeDeploy agent uses to deploy your application and to allow the instance to be managed by SSM.
-[complete AWS CI - CD using Code Commit + Code Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html)
+** [complete AWS CI - CD using Code Commit + Code Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html) **
+- The policy for Amazon EC2 Role to enable AWS Systems Manager service core functionality.
+- Application  (~ Project )and then inside application deployment group
+- agent pool = deployment group
+
