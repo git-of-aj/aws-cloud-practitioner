@@ -16,6 +16,7 @@ For an app to call publicly available AWS services, you can use Lambda to intera
 2. EIP can be attached to ec2 ONLY IF that VPC has NAT gateway
 3. You'll see PUBLIC IP of VPN Gateway after creating a connection => download configuration (generic for cloud), Microsoft means windows server
 4. mount newly attched ebs to ec2 : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html to view permissions:
+5. if file system etc created already then you can see the previously uploaded contents (from ec2-a) in ec2-b
 ```sh
 ls -ld filepath_of_new-vol
 sudo chown -R your_user : filepath
