@@ -14,4 +14,9 @@ For an app to call publicly available AWS services, you can use Lambda to intera
 ## Real Life
 1. Aws organisation can invite accounts from same reseller only.. (to avoid currency issue)
 2. EIP can be attached to ec2 ONLY IF that VPC has NAT gateway
-3. You'll see PUBLIC IP of VPN Gateway after creating a connection => download configuration (generic for cloud), Microsoft means windows server 
+3. You'll see PUBLIC IP of VPN Gateway after creating a connection => download configuration (generic for cloud), Microsoft means windows server
+4. mount newly attched ebs to ec2 : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html to view permissions:
+```sh
+ls -ld filepath_of_new-vol
+sudo chown -R your_user : filepath
+```
