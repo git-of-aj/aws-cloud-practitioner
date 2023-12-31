@@ -72,7 +72,9 @@ However, it's important to note that the EBS volumes must be in a consistent sta
 2.ALB is designed to provide Layer 7 (application layer) load balancing and supports HTTP and HTTPS traffic. It can route traffic based on content-based routing rules, such as path-based routing and host-based routing. ALB also supports advanced features such as sticky sessions, SSL/TLS termination, and authentication.
 
 3. NLB, on the other hand, is designed to provide Layer 4 (transport layer) load balancing and supports TCP, UDP, and other protocols. It can handle a much larger volume of traffic than ALB and has lower latencies. NLB also supports advanced features such as source IP-based routing, cross-zone load balancing, and SSL/TLS passthrough.
-
+# microservices why ?
+Now, in a monolith, it is common to have some components that do more work (receive and process user requests) than others. For example, in our case, not every user who logs in or signs up would make an order or pay for an order.
+- https://www.freecodecamp.org/news/message-queues-in-distributed-systesms/#:~:text=Some%20examples%20of%20message%20queues,a%20microservice%20to%20communicate%20asynchronously.
 ## Messaging service
 [what is pub/sub -> aws docs](https://aws.amazon.com/pub-sub-messaging/)
 - Like a youtube channel bell icon 
