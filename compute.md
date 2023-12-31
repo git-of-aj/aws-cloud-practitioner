@@ -103,7 +103,13 @@ both are siblings
 SNS --> arrogant ||||||| SQS --> patient
 - SNS aya gya ||| SQS aaya --> busy --> wait kia  
 
+Asynchronous communication means that the sender and the receiver of a message are not active or waiting for a response at the same time. This is a less common but more flexible way of interacting with web APIs, using protocols like AMQP or MQTT. Asynchronous communication has some advantages, such as decoupling, scalability, and resilience. You can reduce----
+dependency between your services, which can make them easier to change or scale independently. You can also avoid blocking or timing out your requests, which can improve the performance and user experience of your system. And you can handle the unavailability of your services, by using queues, buffers, or retries. However, asynchronous communication also has some drawbacks, such as complexity, inconsistency, and latency. You have to deal with more moving parts and protocols, which can make your system harder to design, test, and debug. You also have to cope with the possibility of stale or inconsistent data, which can affect the accuracy and quality of your system. And you have to accept the trade-off between reliability and latency, which can affect the responsiveness and feedback of your system
+
+
+
 > Container orchestration is the process of managing and deploying containerized applications across a cluster of servers. These services typically include features such as automated deployment, load balancing, scaling, monitoring, and logging, which simplify the process of managing containers and help to ensure that applications are always available and performing at their best. Some popular container orchestration services include Kubernetes, Docker Swarm, and Amazon ECS.
+
 
 
 ## container in aws
