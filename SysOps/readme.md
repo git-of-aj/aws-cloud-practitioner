@@ -19,4 +19,4 @@
 
 # Systems Manager 
 - [Ec2 Setup](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-setting-up-ec2.html)
-- 
+- [Private Endpoint with SSM](https://repost.aws/knowledge-center/ec2-systems-manager-vpc-endpoints)
