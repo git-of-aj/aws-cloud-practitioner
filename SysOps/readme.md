@@ -20,3 +20,10 @@
 # Systems Manager 
 - [Ec2 Setup](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-setting-up-ec2.html)
 - [Private Endpoint with SSM](https://repost.aws/knowledge-center/ec2-systems-manager-vpc-endpoints)
+- [Private Endpoint Demo](https://repost.aws/knowledge-center/vpc-fix-gateway-or-interface-endpoint)
+- [entra sso](https://learn.microsoft.com/en-us/entra/identity/saas-apps/aws-single-sign-on-tutorial)
+
+# AWS Config
+- [Preventive creation of non compliant aws resources](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-proactive-rules-and-aws-cloudformation-hooks-to-prevent-creation-of-non-complaint-cloud-resources/)
+- [aws config - what it records](https://docs.aws.amazon.com/config/latest/developerguide/select-resources.html)
+- config rules = s3-bucket-public-read-prohibited and vpc-sg-open-only-to-authorized-port
