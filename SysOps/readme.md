@@ -27,3 +27,9 @@
 - [Preventive creation of non compliant aws resources](https://aws.amazon.com/blogs/mt/how-to-use-aws-config-proactive-rules-and-aws-cloudformation-hooks-to-prevent-creation-of-non-complaint-cloud-resources/)
 - [aws config - what it records](https://docs.aws.amazon.com/config/latest/developerguide/select-resources.html)
 - config rules = s3-bucket-public-read-prohibited and vpc-sg-open-only-to-authorized-port
+
+# AWS GuardDuty
+[get Started](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html#startup-samples)
+
+# AWS instance connect
+- [basics](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-with-ec2-instance-connect-endpoint.html)
