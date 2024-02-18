@@ -33,3 +33,4 @@
 
 # AWS instance connect
 - [basics](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-with-ec2-instance-connect-endpoint.html)
+- [VPC ENDPOINT](https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html)
