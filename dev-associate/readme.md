@@ -7,6 +7,9 @@ Ways to work with aws
 AWS SDK
 AWS CLI
 aws cli hands on  - generate skeleton
+- aws sam cli
+- aws cognito
+- cloidformation basics
 boto 3 basics
 aws cloud 9 
 aws codewispher
@@ -15,7 +18,16 @@ aws codewispher
 - Elastic beanstalk
 - ECS
 - lambda
+- [aws step function](https://aws.amazon.com/step-functions/)
+- event bridge
+- app runner
 
+# storage 
+- rds proxy
+- DAX
+- elasticache
+- ACM
+- slide 244,312,436,462,477,502,587
 # AWS IAM In dev's Point of view:
 
 IAM revision
@@ -38,11 +50,11 @@ RDS (MySQL)
 DynamoDb
 
 # DevOps Intro
-DevOps lifecycle
-AWS DevOps Services Intro
+- DevOps lifecycle
+- AWS DevOps Services Intro
 - github actions
-- 
-
+- jira
+- xray
 
 
 Automation: Scripting Knowldeg
