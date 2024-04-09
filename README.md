@@ -1,6 +1,6 @@
 # aws-cloud-practitioner
-
-[s3 Policy Vs IAM Policy](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
+- [s3 batch operations to retrieve from glacier](https://community.aws/tutorials/s3-batch-operations-restore)
+- [s3 Policy Vs IAM Policy](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
 
 
 ## API Gateway 
