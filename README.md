@@ -1,6 +1,14 @@
-# aws-cloud-practitioner
+# IMP
 - [s3 batch operations to retrieve from glacier](https://community.aws/tutorials/s3-batch-operations-restore)
 - [s3 Policy Vs IAM Policy](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
+- [S3 PRESIGNED URL]
+- Examples: 
+
+• Allow only logged-in users to download a premium video from your S3 bucket
+
+• Allow an ever-changing list of users to download files by generating URLs dynamically
+
+• Allow temporarily a user to upload a file to a precise location in your S3 
 
 
 ## API Gateway 
