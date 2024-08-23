@@ -1,3 +1,5 @@
+# [AWS CCP Practice Questions GitHub Repo](https://github.com/kananinirav/AWS-Certified-Cloud-Practitioner-Notes/blob/master/practice-exam/practice-exam-1.md)
+
 # IMP
 - [s3 batch operations to retrieve from glacier](https://community.aws/tutorials/s3-batch-operations-restore)
 - [s3 Policy Vs IAM Policy](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
