@@ -28,3 +28,5 @@ Automation and access control
 
 ![](https://docs.aws.amazon.com/images/whitepapers/latest/build-e2e-data-driven-applications/images/purpose-built-analytics.png)
 
+demo idea - https://docs.aws.amazon.com/prescriptive-guidance/latest/archiving-mysql-data/export-data-by-using-aws-glue.html
+
