@@ -1,0 +1,39 @@
+{
+    "Records": [
+      {
+        "eventVersion": "2.1",
+        "eventSource": "aws:s3",
+        "awsRegion": "ap-south-1",
+        "eventTime": "2024-10-29T19:17:46.709Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+          "principalId": "AWS:AIDAZQ3DOFFBQ4YVI3FTY"
+        },
+        "requestParameters": {
+          "sourceIPAddress": "146.196.36.247"
+        },
+        "responseElements": {
+          "x-amz-request-id": "BX4SN47SHPHMVGX1",
+          "x-amz-id-2": "haURFms082OOleeQMNSJ4NNC++POpaAvlCHOoq10jFr1B4GyPb24/S0LLKLhzIBSqzGi7bRpxB3tm7uYfnDyBA+59AtFV98l"
+        },
+        "s3": {
+          "s3SchemaVersion": "1.0",
+          "configurationId": "4baeee41-b04e-4544-a733-6833ec34304b",
+          "bucket": {
+            "name": "test89738",
+            "ownerIdentity": {
+              "principalId": "A3EVCXJLOUXEIC"
+            },
+            "arn": "arn:aws:s3:::test89738"
+          },
+          "object": {
+            "key": "employee_countries_with_salary.csv",
+            "size": 1796,
+            "eTag": "7b3f33219ba08fbf7f8501c978e6a0cf",
+            "sequencer": "00672134DAAD5C2B3D"
+          }
+        }
+      }
+    ]
+  }
+  
