@@ -1,6 +1,9 @@
-https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-caf-platform-perspective/data-eng.html
+## Intro
+- [how to start dataengineering](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-caf-platform-perspective/data-eng.html)
+- [data lifecycle - how data changes](https://docs.aws.amazon.com/prescriptive-guidance/latest/modern-data-centric-use-cases/data-lifecycle.html)
+- [List of all data aws services with explanation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html)
 
-# https://docs.aws.amazon.com/prescriptive-guidance/latest/modern-data-centric-use-cases/data-lifecycle.html
+ ## based on above - 
 To build a data pipeline, you must first ingest data into AWS from an external or internal data source, such as a file server, database, storage bucket, or from an API call. The ingested data may or may not go through transformation, such as anonymization, column dropping, or data cleaning.
 
 This section provides an overview of the stages in the data lifecycle process, as shown in the following diagram.
