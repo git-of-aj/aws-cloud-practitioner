@@ -1,5 +1,6 @@
 [YT Playlist](https://www.youtube.com/playlist?list=PLOlK8ytA0MgjYGVrz0hS4w3UPQ1-VV2uX)
 
+aws glue - https://docs.aws.amazon.com/glue/latest/dg/start-data-catalog.html
 ## TOC
 0. Basics + IAM
 1. s3
